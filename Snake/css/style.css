@@ -1,0 +1,176 @@
+/* Reset CSS
+ * --------------------------------------- */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+/* GENERAL CSS
+   * --------------------------------------- */
+body,
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: greenyellow;
+}
+
+article {
+    min-height: 90vh;
+}
+
+header {
+    min-height: 10vh;
+    max-height: 10vh;
+    font-size: 4vh;
+}
+
+#gameFrame {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    min-height: fit-content;
+    max-width: 778px;
+    max-height: 458px;
+    border-style: double !important;
+}
+
+#gameFrame::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-image: url('../images/orchard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#theCanvas {
+    position: relative;
+    z-index: 1;
+}
+
+#startButton {
+    z-index: 2;
+}
+
+@media (orientation: portrait) {
+    #gameFrame {
+        height: 40vh;
+    }
+
+    @media screen and (max-width: 800px) {
+        header {
+            font-size: 6vw;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        header {
+            font-size: 4vw;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        header {
+            font-size: 3.5vw;
+        }
+    }
+}
+@media (orientation: landscape) {
+    @media screen and (max-height: 600px) {
+        #gameFrame {
+            height: 75vh;
+        }
+    }
+}

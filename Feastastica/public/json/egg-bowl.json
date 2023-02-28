@@ -1,0 +1,7 @@
+{
+    "name": "Egg Bowl",
+    "image" : "images/egg-bowl.jpg",
+    "bannerText" : "Meat & Toast Egg Roll Bowl",
+    "text" : "Scrumptious meal packed into a bowl.",
+    "ingredients" : ["Meat","Egg Rolls","Toast"]
+}

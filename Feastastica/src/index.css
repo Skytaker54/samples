@@ -1,0 +1,44 @@
+body{
+  background-color: tan !important;
+}
+header{
+  background-color: tan;
+}
+header .logo{
+  text-align: center;
+  color: darkred;
+  border: 10px groove chocolate;
+  padding: 1em 0;
+  border-radius: 25%;
+  overflow: hidden;
+  background-color: antiquewhite;
+  background: radial-gradient(antiquewhite 20%, coral 90%);
+  text-shadow: .075em .075em .3em coral;
+  height: 20vh;
+}
+.logo-text{
+  font-family: 'Curlz MT', Harrington, fantasy;
+  margin-top: -0.3em;
+}
+.logo-text::first-letter {
+  font-size: 1.5em;
+}
+.selectForm{
+  background-color: antiquewhite;
+  background: radial-gradient(antiquewhite 20%, coral 90%);
+  padding: 2em;
+  border-radius: 25%;
+}
+.selectForm select{
+  border-radius: 20%;
+  background-color: peru;
+  color: white;
+  padding: .5em;
+}
+.b-border {
+  border-bottom: brown 5px double;
+}
+article {
+  height: 75vh;
+  background-color: peachpuff;
+}

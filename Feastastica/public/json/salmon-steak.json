@@ -1,0 +1,7 @@
+{
+    "name": "Salmon Steak",
+    "image" : "images/salmon-steak.jpg",
+    "bannerText" : "Salmon Steak on a bed of Romaine",
+    "text" : "Pan-seared salmon served with crispy romaine lettuce.",
+    "ingredients" : ["Salmon","Romaine Lettuce","Tomatoes"]
+}

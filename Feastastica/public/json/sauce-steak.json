@@ -1,0 +1,7 @@
+{
+    "name": "Sauce Steak",
+    "image" : "images/sauce-steak.jpg",
+    "bannerText" : "Sizzling Steak with Mushrooms and Tarragon",
+    "text" : "Juicy steak in a unbeatable umami sauce. Served with noodles and chunky avocado salad for an exquisite meal.",
+    "ingredients" : ["Steak","Sauce","Noodles","Avocado Salad","Mushrooms","Tarragon"]
+}

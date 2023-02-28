@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Lobster&family=Permanent+Marker&family=Aboreto&display=swap');
+
+.page {
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-image: radial-gradient(farthest-corner at 40px 50px, white, green 80%, darkgreen);
+    font-family: aboreto, san-serif;
+}
+
+.logo {
+    font-size: 3.5rem;
+    font-family: 'Permanent Marker', fantasy;
+    transform: rotate(-10deg) translateY(-120px) translateX(-15px);
+    width: 120%;
+}
+
+.logo::first-letter {
+    color: darkred;
+    font-size: 6rem;
+    font-family: Kavoon, fantasy;
+}
+
+.tagline {
+    margin-top: -40px;
+    text-shadow: 0 0 10px white;
+}
+
+@media screen and (max-width:1400px) {
+    .logo {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        margin-top: 6rem;
+    }
+    .tagline {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-top: 9rem;
+        font-size: 3rem;
+    }
+    .tagline {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .logo {
+        font-size: 2rem;
+    }
+    .tagline {
+        font-size: .8rem;
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Lo Mein",
+    "image" : "images/lo-mein.jpg",
+    "bannerText" : "Stir Fried Lo Mein with General Tso's Sauce",
+    "text" : "Udon noodles served with fried vegetables and scrumptious bits of roasted chicken.",
+    "ingredients" : ["Noodles","Vegetables","Chicken","General Tso's Sauce"]
+}

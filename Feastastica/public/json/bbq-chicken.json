@@ -1,0 +1,7 @@
+{
+    "name": "BBQ Chicken",
+    "image" : "images/bbq-chicken.jpg",
+    "bannerText" : "Crispy Barbequed Chicken",
+    "text" : "Delicious chicken roasted to perfection and served on flatbread, with creamy dip and spicy crumb on the side.",
+    "ingredients" : ["Chicken","Flatbread","Dip","Crumbs"]
+}
